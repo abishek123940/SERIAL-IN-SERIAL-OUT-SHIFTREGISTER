@@ -1,4 +1,8 @@
-# SERIAL-IN-SERIAL-OUT-SHIFTREGISTER
+**NAME: S ABISHEK**
+
+**REG NO: 24900833**
+
+**EXPERIMENT NO 10 : SERIAL-IN-SERIAL-OUT-SHIFTREGISTER**
 
 **AIM:**
 
@@ -8,9 +12,9 @@ To implement  SISO Shift Register using verilog and validating their functionali
 
 Quartus prime
 
-**THEORY**
+**THEORY:**
 
-**SISO shift Register**
+**SISO shift Register:**
 
 A Serial-In Serial-Out shift register is a sequential logic circuit that allows data to be shifted in and out one bit at a time in a serial manner. It consists of a cascade of flip-flops connected in series, forming a chain. The input data is applied to the first flip-flop in the chain, and as the clock pulses, the data propagates through the flip-flops, ultimately appearing at the output.
 
@@ -23,20 +27,37 @@ Figure 01 4 Bit SISO Register
 The synchronous nature of the flip-flops ensures that the shifting of data occurs in a coordinated manner. When the clock signal rises, the input data is sampled and stored in the first flip-flop. On subsequent clock pulses, the stored data propagates through the flip-flops, moving from one flip-flop to the next.
 Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and an output (Q). The D input represents the data to be loaded into the flip-flop, while the CLK input is connected to the common clock signal. The output (Q) of each flip-flop is connected to the D input of the next flip-flop, forming a cascade.
 
-**Procedure**
+**PROCEDURE:**
 
-/* write all the steps invloved */
+Type the program in Quartus software.
 
-**PROGRAM**
+1.Compile and run the program.
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming.
+2.Generate the RTL schematic and save the logic diagram.
 
-Developed by: RegisterNumber:
+3.Create nodes for inputs and outputs to generate the timing diagram.
 
-*/
+4.For different input combinations generate the timing diagram.
 
-**RTL LOGIC FOR SISO Shift Register**
 
-**TIMING DIGRAMS FOR SISO Shift Register**
+**PROGRAM:**
 
-**RESULTS**
+![image](https://github.com/user-attachments/assets/4f9fb1fe-0f29-4acc-885e-ded8947b7171)
+
+
+**RTL LOGIC FOR SISO:**
+
+![image](https://github.com/user-attachments/assets/948105ba-e874-4a9e-8eb5-79e4b905a14c)
+
+
+
+**TIMING DIGRAM:**
+
+![WhatsApp Image 2024-12-24 at 21 41 25_03e483bf](https://github.com/user-attachments/assets/1e41b18a-5956-4ddf-a4c2-50eb2cfcfc23)
+
+
+
+
+**RESULTS:**
+
+Thus to implement SISO Shift Register using verilog and validating their functionality using their functional tables done successfully.
